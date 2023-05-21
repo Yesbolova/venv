@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-*%@!qz@06-1bs$e7kq8wjaq@fr=e0=^n8e8e_az0)8^)_)$hpb
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [Yesbolova.pythonanywhere.com]
 
 
 # Application definition
@@ -127,6 +127,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
 STATIC_URL = '/static/'
+MEDIA_URL = '/media/'
+STATIC_ROOT = '/home/Yesbolova/venv/static'
+MEDIA_ROOT = '/home/Yesbolova/venv/media'
 
 
 EMAIL_USE_TLS = True
